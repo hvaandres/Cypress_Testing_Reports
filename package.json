@@ -1,0 +1,23 @@
+{
+  "name": "Cypress_Testing_Reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvaandres/Cypress_Testing_Reports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvaandres/Cypress_Testing_Reports/issues"
+  },
+  "homepage": "https://github.com/hvaandres/Cypress_Testing_Reports#readme",
+  "devDependencies": {
+    "cypress": "^6.2.1"
+  }
+}
