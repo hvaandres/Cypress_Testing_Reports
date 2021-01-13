@@ -10,9 +10,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
-
-      - name: Cypress Dashboard
-        uses: cypress run --record --key 35247149-8d92-4a84-92ca-cbc7705c9a28
         
       - name: Run Cypress tests
         run: npm run test:chrome
