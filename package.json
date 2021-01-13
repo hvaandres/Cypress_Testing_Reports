@@ -6,7 +6,8 @@
   "scripts": {
     "test:chrome": "cypress run --browser chrome",
     "combine:report": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
-    "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+    "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html",
+    "cypressTest": "cypress run --record --key 35247149-8d92-4a84-92ca-cbc7705c9a28"
   },
   "repository": {
     "type": "git",
